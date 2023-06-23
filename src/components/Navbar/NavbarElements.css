@@ -1,0 +1,55 @@
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    z-index: 999; /* Ensure the navigation bar appears on top of other elements */
+  }
+  
+  .navbar-menu {
+    cursor: pointer;
+    color: white;
+  }
+
+  .navbar-left {
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar-logo {
+    height: 40px;
+    margin-right: 10px;
+  }
+  
+  .navbar-menu {
+    cursor: pointer;
+    color: white;
+  }
+  
+  .navbar-right {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+  
+  .navbar-profile-avatar {
+
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    margin-right: 6px;
+  }
+  
+  .navbar-profile-name {
+    color: white;
+    margin-right: 60px;
+    align-self: center;
+
+  }
+  
+  
